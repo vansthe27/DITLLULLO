@@ -1,0 +1,20 @@
+.prueba section {
+    display: flex;
+    width: 700px;
+    height: 530px;
+}
+
+.prueba section img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: 5s ease;
+}
+
+.prueba section img:hover {
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
